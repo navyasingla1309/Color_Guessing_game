@@ -1,0 +1,77 @@
+body{
+	background-color: #232323;
+}
+
+.square{
+	width:30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	margin:1.66%;
+	border-radius: 20%;
+}
+.container{
+	width:60%;
+}
+h1{
+	color: white;
+}
+.selected{
+	background-color: steelblue;
+	color:white;	
+}
+.head{
+	text-transform: uppercase;
+	line-height: 1.1rem;
+	letter-spacing: 0.2rem;
+	background-color:steelblue;
+	padding :3% 0;
+	font-family: "Inconsolata"
+}
+.head h1{
+	font-size: 40px;
+	font-weight:600;
+}
+.head span{
+	font-size:80px;
+	font-weight: 900;
+}
+.options{
+	background-color: white;
+}
+button{
+	background-color: white;
+	border: none;
+	font-size: 1.2em;
+	transition: all 0.1s;
+}
+button:focus{
+	outline: none;
+}
+.new{
+	margin-left:20%;
+	margin-right:45%;
+	color: steelblue;
+	font-weight:700;
+}
+.new:hover{
+	background-color: steelblue;
+	color: white;
+
+}
+.level:hover{
+	background-color: steelblue;
+	color: white;
+}
+.level{
+	margin-right:2%;
+	color: steelblue;
+	font-weight:700;
+}
+#hard{
+	color: white;
+}
+@media (max-width: 800px){
+	.new{
+		margin-left:0px; 
+	}
+}
